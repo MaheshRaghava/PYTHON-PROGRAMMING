@@ -1,3 +1,4 @@
+
 #factorial
 def rfactorial(n):
     if n==0 or n==1:
@@ -42,3 +43,40 @@ if cutie(n)==0:
     print("Even number")
 else:
     print("Odd number")
+#Key existence in dictionary
+d={'a':10,'b':20,'c':30}
+n=input("Enter a key : ")
+if n in d:
+    print("Key is present")
+else:
+    print("key is not present")
+# adding a new-key to dictionary
+d={'c':10,'u':20,'t':30,'i':40}
+d.update({'e':50})
+print(d)
+#sum of all items in dictionary
+d={'c':10,'u':20,'t':30,'i':40,'e':50}
+s=sum(d.values())
+print("sum : ",s)
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
